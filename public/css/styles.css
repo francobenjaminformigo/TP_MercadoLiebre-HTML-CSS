@@ -50,6 +50,7 @@ body {
     #search-text-input {
         width: 33%;
         height: 20px;
+        padding: 18px;
     }
     
     .main-navbar {
@@ -130,6 +131,11 @@ body {
         max-width: 200px;
         width: 200px;
     }
+
+    #search-text-input {
+        padding: 20px;
+        font-size: 16px;
+    }
     
 }
 
@@ -144,6 +150,11 @@ body {
     .card {
         width: 300px;
         max-width: 300px;
+    }
+
+    #search-text-input {
+        padding: 28px;
+        font-size: 24px;
     }
 }
 
