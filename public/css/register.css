@@ -1,0 +1,129 @@
+.form-title {
+    font-size: 24px;
+    text-align: center;
+    margin: 20px auto;
+    color: #666666;
+}
+
+.form-container {
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* max-width: 1200px; */
+}
+
+.form-container form {
+    width: 100%;
+}
+
+.form-container div {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+
+.form-container input[type="text"], .form-container input[type="email"],
+.form-container input[type="number"], .form-container input[type="date"],
+.form-container input[type="password"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 14px;
+    margin: 10px auto;
+    color: black;
+}
+
+label {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.form-container .perfilUsuario input[type="radio"] {
+    display: inline-block;
+    margin: none;
+}
+
+label.labelPerfil {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.perfilUsuario {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px auto;
+}
+
+.perfilUsuarioh3 {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.interesesh3 {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+label.labelIntereses {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    margin: 15px;
+}
+
+input[type="checkbox"] {
+    margin-left: 20px;
+}
+
+.inputFile {
+    margin: 10px auto;
+}
+
+.formButton {
+    width: 100%;
+    padding: 12px;
+    margin: 15px auto;
+    border-radius: 5px;
+    background-color: #0044AA;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px #999;
+}
+
+.formButton:active {
+    box-shadow: 0 1px #666;
+    transform: translateY(1px);
+}
+
+.form-container div {
+    margin: 15px auto;
+}
+
+.throw-error {
+    color: red;
+    font-size: 12px;
+}
+

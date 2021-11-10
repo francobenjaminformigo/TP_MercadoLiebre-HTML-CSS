@@ -1,6 +1,7 @@
 @import url('header.css');
 @import url('home.css');
 @import url('footer.css');
+@import url('register.css');
 
 * {
     box-sizing: border-box;
@@ -34,9 +35,14 @@ body {
     
     .copy-header {
         max-width: 350px;
-        text-align: center;
+        text-align: right;
         display: inline;
         width: 33%;
+        font-size: 16px;
+    }
+
+    .copy-header i {
+        font-size: 12px;
     }
     
     .burguer-button {
@@ -45,10 +51,15 @@ body {
     
     .logo {
         width: 33%;
+        
+    }
+
+    .main-header form {
+        width: 33%;
     }
     
     #search-text-input {
-        width: 33%;
+        width: 100%;
         height: 20px;
         padding: 18px;
     }
@@ -93,13 +104,17 @@ body {
         flex-direction: row;
     }
 
+    .throw-error {
+        font-size: 14px;
+    }
+
     
 }
 
 @media (min-width: 1024px) {
     
     .logo {
-        padding: 30px;
+        padding: 10px;
     }
 
     .main-header-top-bar, .main-navbar {
@@ -107,11 +122,20 @@ body {
         margin: auto;
     }
 
+    .form-container {
+        width: 70%;
+    }
+
     .copy-header {
         max-width: none;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
         margin: 0;
+        text-align: center;
+    }
+    
+    .copy-header i {
+        font-size: 16px;
     }
 
     .main-navbar li {
@@ -136,6 +160,14 @@ body {
         padding: 20px;
         font-size: 16px;
     }
+
+    .main-header-top-bar {
+        padding-bottom: 20px;
+    }
+
+    .main-navbar {
+        padding-top: 20px;
+    }
     
 }
 
@@ -154,7 +186,13 @@ body {
 
     #search-text-input {
         padding: 28px;
-        font-size: 24px;
+        font-size: 20px;
     }
+
+    .copy-header {
+        text-align: center;
+    }
+
+    
 }
 

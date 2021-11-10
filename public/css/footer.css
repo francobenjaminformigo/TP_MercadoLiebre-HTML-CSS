@@ -1,5 +1,7 @@
 footer {
     padding-top: 60px;
+    background-color: white;
+    justify-self: flex-end;
   }
   
   footer article.footer-article {
@@ -31,5 +33,5 @@ footer {
   footer .copy {
     color: #666;
     font-size: 12px;
-    margin: 0 0 15px 15px;
+    margin-left: 15px;
   }
