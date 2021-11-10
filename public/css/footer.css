@@ -1,7 +1,19 @@
 footer {
     padding-top: 60px;
     background-color: white;
-    justify-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: auto;
+    
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
   }
   
   footer article.footer-article {
@@ -16,6 +28,11 @@ footer {
     color: #1159C3;
     font-size: 32px;
     margin-bottom: 15px;
+  }
+
+  footer article.footer-article i:hover {
+    color: #666;
+    cursor: pointer;
   }
   
   footer article.footer-article h3 {
