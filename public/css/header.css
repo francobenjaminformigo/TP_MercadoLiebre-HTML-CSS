@@ -1,6 +1,12 @@
 .main-header {
     background-color: #EAC926;
     padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    
+    top: 0;
+    
 }
 
 .main-header form {
