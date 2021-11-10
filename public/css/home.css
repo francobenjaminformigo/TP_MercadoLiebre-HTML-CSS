@@ -8,7 +8,7 @@
 
 
 .home {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -37,6 +37,7 @@
     border-top: solid 1px #ebebeb;
     padding: 15px;
     position: relative;
+    transition: all .8s ease-in-out;
 }
 
 .home .card .card-content .icon-truck {
@@ -50,7 +51,7 @@
     position: absolute;
     top: -15px;
     right: 20px;
-    transition: transform .7s ease-in-out;
+    transition: transform .8s ease-in-out;
 }
 
 
@@ -89,7 +90,7 @@
 }
 
 .home .card:hover .card-content .product-name {
-    display: block;
+    display: inline-block;
 }
 
 .home .card:hover .card-content .icon-truck {

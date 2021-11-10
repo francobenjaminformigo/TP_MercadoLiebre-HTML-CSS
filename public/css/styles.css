@@ -74,6 +74,10 @@ body {
         justify-content: space-between;
     }
 
+    .main-navbar a {
+        font-size: 14px;
+    }
+
     .main-navbar ul {
         display: flex;
     }
@@ -89,6 +93,7 @@ body {
 
     .section-title {
         display: block;
+        padding-left: 30px;
     }
 
     .card {
@@ -147,7 +152,7 @@ body {
     }
 
     .main-navbar a {
-        font-size: 19px;
+        font-size: 18px;
         text-align: center;
     }
     
@@ -202,5 +207,11 @@ body {
     }
 
     
+}
+
+@media (min-width: 1800px) {
+    .section-title {
+        padding-left: 82px;
+    }
 }
 
